@@ -15,7 +15,7 @@ const newArray3 = ['Usaid', 'Uzair', 'Affan', 'Saad'];
 // In this case it returns between index of 1-3 4th element is not included
 
 // console.log(newArray);
-// console.log(newArray2.splice(1, 3));
+// console.log(newArray2.splice(1, 3));//changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
 // console.log(newArray2);
 
 // console.log(newArray.push(6)); add element to the array at last position
@@ -36,7 +36,7 @@ const newArray3 = ['Usaid', 'Uzair', 'Affan', 'Saad'];
 // console.log(concatArray);
 // console.log(newArray.flat()); //The flat() method of Array instances creates a new array with all sub-array elements concatenated into
 //it recursively up to the specified depth.
-// console.log(Array.from('Usaid'));
+console.log(Array.from('Usaid'));
 // console.log(
 //   Array.from({
 //     name: 'Usaid',
@@ -44,4 +44,4 @@ const newArray3 = ['Usaid', 'Uzair', 'Affan', 'Saad'];
 //   })
 // );
 
-console.log(Array.of(newArray,newArray2,newArray3))
+console.log(Array.of(newArray, newArray2, newArray3));
