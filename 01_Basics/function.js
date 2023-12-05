@@ -15,7 +15,7 @@
 //         return
 //     }
 //     else
-//     return console.log(`Form ${form1} Succesfully!`)
+//     return console.log(`Form ${form1} Successfully!`)
 // }
 // FormSubmit()
 
