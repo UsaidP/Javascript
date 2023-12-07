@@ -9,7 +9,6 @@
 // }
 // addition(6,7)
 
-
 // function FormSubmit(form1){
 //     if (form1 === undefined) {
 //         return
@@ -19,4 +18,4 @@
 // }
 // FormSubmit()
 
- Imidiately Invoked Fuction Execution
+//  Imidiately Invoked Fuction Execution
