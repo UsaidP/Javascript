@@ -22,8 +22,20 @@ const Heros = ["Salauddin Ayyubi", "Osman Gazi", "Khalid-bin-Walid"];
 //   console.log(i);
 //   i++;
 // }
+// let i = 0;
+// while (i < Heros.length) {
+//   console.log(Heros[i]);
+//   i++;
+// }
+
+// let num = 1;
+// do {
+//   console.log(num)
+//   num=num+1;
+
+// } while (num<=10);
 let i = 0;
-while (i < Heros.length) {
-  console.log(Heros[i]);
-  i++;
-}
+do {
+  console.log(Heros[i])
+  i++
+} while (i<Heros.length);
