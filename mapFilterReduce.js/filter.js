@@ -19,16 +19,14 @@
 // const Filter_2 = arr.filter((val) => {
 //   return val > 2 && val < 8;
 // });
-
 // console.log(Filter_2);
 
 // const scienceBooks = books.filter((bk) => {
 //   return bk.genre === "Science";
 // });
 // console.log(scienceBooks);
-
 // const HistoryBooks = books.filter((bk) => bk.genre === "History");
 // console.log(HistoryBooks);
 
-const blewNinty = books.filter((bk) => bk.publish < 1990);
-console.log(blewNinty);
+// const blowNinty = books.filter((bk) => bk.publish < 1990);
+// console.log(blowNinty);

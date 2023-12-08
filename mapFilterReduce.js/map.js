@@ -10,12 +10,18 @@ const books = [
   { title: "Book Nine", genre: "Non-Fiction", publish: 1981, edition: 1989 },
 ];
 
-const booksTitle = books.map((bt) => {
-  return (bt.title);
-});
-console.log(booksTitle);
+// const booksTitle = books.map((bt) => {
+//   return bt.title;
+// });
+// console.log(booksTitle);
 
-const booksgenre = books.map((bt, bk, fullInfo) => {
-    return (bt.genre);
-  });
-  console.log(booksgenre);
+const booksgenre = books.map((bt, key, fullInfo) => {
+  return (
+    bt.genre,
+    key,
+    fullInfo.filter((fil) => {
+      return fil.publish > 2000;
+    })
+  );
+});
+console.log(booksgenre);

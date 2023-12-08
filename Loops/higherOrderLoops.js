@@ -20,15 +20,15 @@
 // ++++++++++++++++++++++++++ Map +++++++++++++++++++++++++
 // const map = new Map();
 
-//     map.set(1,"India")
-//     map.set(2, "Pakistan")
-//     map.set(3, "Palestine")
-//     map.set(4, "Soudi Arebia")
+// map.set(1, "India");
+// map.set(2, "Pakistan");
+// map.set(3, "Palestine");
+// map.set(4, "Soudi Arebia");
 
-//     for (const [key, value] of map) {
-//         console.log(`Key is ${key} and Value is ${value}`)
-//     }
-
+// for (const [key, value] of map) {
+//   console.log(`Key is ${key} and Value is ${value}`);
+// }
+// console.log(map);
 // +++++++++++++++++++++++++ Object +++++++++++++++++++++++++
 // const games = {
 //   1: "CSGO",
@@ -36,16 +36,16 @@
 //   3: "Dota 2",
 // };
 
-// +++++++++++++++++++++++++++ For OF Loop ++++++++++++++++++++++++
+// +++++++++++++++++++++++++++ For Of Loop ++++++++++++++++++++++++
 
 // for (const key of games) { // forof loop doen't work for object iteration and work for maps
 //   console.log(key);
 // }
 
 // +++++++++++++++++++++++++++ For In Loop ++++++++++++++++++++++++
-// for (const key in arr) {
-//forin loop use for Object iteraton
-//   console.log(`${key} ${arr[key]}`);
+// for (const key in games) {
+// forin loop use for Object iteraton
+//   console.log(` ${[key]} values is ${games[key]}`);
 // }
 
 // ++++++++++++++++++++++++++++++ For Each Loop +++++++++++++++++++++
@@ -56,9 +56,10 @@
 //   email: "arkammulla123@gmail.com",
 // };
 
-// const printItems = (items) => {
-//   console.log(items.toLowerCase());
-// };
+// const data1 = Array(data);
+// const data2 = data1.forEach((print) => {
+//   console.log(print.username);
+// });
 
 // const cloths = ["t-shirt", "jeans", "Shirt", "Underware"];
 
