@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #212121; color: whitesmoke"></body>
+
+  <script>
+    const h1 = document.createElement("h1");
+    console.log(h1);
+    h1.className = "heading";
+    h1.id = "title";
+    h1.style.color = "#fff";
+    h1.style.background = "green";
+    const Title = document.createTextNode("Usaid");
+    h1.appendChild(Title);
+    document.body.appendChild(h1);
+  </script>
+</html>
